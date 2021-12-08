@@ -1,0 +1,50 @@
+mian()
+{
+     int mm;
+     clrscr();
+     print("Enter the month(1-12)");
+     scanf("%d",&mm);
+     switch(mm)
+     {
+	 case1:
+	     printf("Jaunuary");
+	     break;
+	 case2:
+	     printf("Feburuary");
+	     break;
+	 case3:
+	     printf("March");
+	     break;
+	 case4:
+	     printf("April");
+	     break;
+	 case5:
+	     printf("May");
+	     break;
+	 case6:
+	     printf("June");
+	     break;
+	 case7:
+	     printf("July");
+	     break;
+	 case8:
+	     printf("August");
+	     break;
+	 case9:
+	     printf("September");
+	     break;
+	 case10:
+	     printf("Octomber");
+	     break;
+	 case11:
+	     printf("Novmber");
+	     break;
+	 case12:
+	     printf("Decmber");
+	     break;
+	 defualt:
+	     printf("Invalid month");
+	     break;
+     }
+     getch();
+}
