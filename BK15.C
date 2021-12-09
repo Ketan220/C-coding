@@ -1,0 +1,20 @@
+/* 11111
+   2222
+   333
+   22
+   1
+*/
+main()
+{
+     int r,c;
+     clrscr();
+     for(r=5;r>=1;r--)
+     {
+	 for(c=1;c<=r;c++)
+	 {
+	    printf("%d",r);
+	 }
+	 printf("\n");
+     }
+     getch();
+}
